@@ -6,6 +6,19 @@ public class Laptop implements Serializable {
     private String brend;
     private String model;
     private Double cijena;
+
+    public Laptop(String brend, String model, Double cijena, Integer ram, Integer hdd, Integer ssd, String procesor, String grafickaKartica, Double velicinaEkrana) {
+        this.brend = brend;
+        this.model = model;
+        this.cijena = cijena;
+        this.ram = ram;
+        this.hdd = hdd;
+        this.ssd = ssd;
+        this.procesor = procesor;
+        this.grafickaKartica = grafickaKartica;
+        this.velicinaEkrana = velicinaEkrana;
+    }
+
     private Integer ram;
     private Integer hdd;
     private Integer ssd;
